@@ -1,10 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Franck Paul <carnet.franck.paul@gmail.com>, 2025
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2025-04-25 08:44+0000\n"
 "Last-Translator: Franck Paul <carnet.franck.paul@gmail.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/open-time/teams/109573/fr/)\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 msgid "Theme Switcher Helper"
@@ -41,14 +41,11 @@ msgstr "Aide au changement de thème"
 msgid "Theme switcher"
 msgstr "Sélecteur de thème"
 
-#, fuzzy
 msgid "Auto theme label (optional):"
-msgstr "Libellé de thème automatique :"
+msgstr "Libellé du thème automatique (optionnel) :"
 
-#, fuzzy
 msgid "Light theme label (optional):"
-msgstr "Libellé de thème clair :"
+msgstr "Libellé du thème clair (optionnel) :"
 
-#, fuzzy
 msgid "Dark theme label (optional):"
-msgstr "Libellé de thème sombre :"
+msgstr "Libellé du thème sombre (optionnel) :"
