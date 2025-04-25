@@ -44,7 +44,6 @@ class FrontendWidgets
         $res .= ($widget->title ? $widget->renderTitle(Html::escapeHTML($widget->title)) . "\n" : '');
 
         $res .= (new Para('themeSwitchHelper'))
-            ->class('widget')
             ->items([
                 (new Btn('autoSwitch', $widget->get('auto') ?: __('Auto')))
                     ->class('submit'),
