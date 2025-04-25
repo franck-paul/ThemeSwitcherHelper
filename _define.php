@@ -13,7 +13,7 @@
  */
 $this->registerModule(
     'Theme Switcher Helper',
-    'Theme Switcher Helper widgets, css and js',
+    'Theme Switcher Helper widget, css and js',
     'Franck Paul',
     '0.0',
     [

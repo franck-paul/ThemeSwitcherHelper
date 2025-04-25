@@ -1,0 +1,12 @@
+#themeSwitchHelper {
+  display: flex;
+  gap: 0.25em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  #lightSwitch.active,
+  #darkSwitch.active {
+    text-decoration: underline;
+  }
+}
