@@ -26,10 +26,6 @@ class Install extends Process
 
     public static function process(): bool
     {
-        if (!self::status()) {
-            return false;
-        }
-
-        return true;
+        return (bool) self::status();
     }
 }
