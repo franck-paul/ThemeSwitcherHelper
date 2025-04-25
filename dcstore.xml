@@ -1,11 +1,11 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="ThemeSwitcherHelper">
     <name>Theme Switcher Helper</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <author>Franck Paul</author>
     <desc>Theme switcher helpers (widgets/style/js)</desc>
-    <date>2025-04-25T10:49:51+0200</date>
-    <file>https://github.com/franck-paul/ThemeSwitcherHelper/releases/download/1.0/plugin-ThemeSwitcherHelper-1.0.zip</file>
+    <date>2025-04-25T13:17:57+0200</date>
+    <file>https://github.com/franck-paul/ThemeSwitcherHelper/releases/download/1.1/plugin-ThemeSwitcherHelper-1.1.zip</file>
     <da:dcmin>2.34</da:dcmin>
     <da:details>https://open-time.net/?q=ThemeSwitcherHelper</da:details>
     <da:support>https://github.com/franck-paul/ThemeSwitcherHelper</da:support>
