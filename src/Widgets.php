@@ -25,9 +25,9 @@ class Widgets
         $w
             ->create('themeswitcherhelper', __('Theme switcher helper'), FrontendWidgets::widgetThemeSwitcher(...), null, __('Theme Switcher Helper widget, css and js'))
             ->addTitle(__('Theme switcher'))
-            ->setting('auto', __('Auto theme label:'), '')
-            ->setting('light', __('Light theme label:'), '')
-            ->setting('dark', __('Dark theme label:'), '')
+            ->setting('auto', __('Auto theme label (optional):'), '')
+            ->setting('light', __('Light theme label (optional):'), '')
+            ->setting('dark', __('Dark theme label (optional):'), '')
             ->addContentOnly()
             ->addClass()
             ->addOffline();

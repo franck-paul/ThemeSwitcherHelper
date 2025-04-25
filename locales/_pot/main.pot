@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dotclear 2 ThemeSwitcherHelper module\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:38+0200\n"
+"POT-Creation-Date: 2025-04-25 13:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,13 +46,13 @@ msgid "Theme switcher"
 msgstr ""
 
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:28
-msgid "Auto theme label:"
+msgid "Auto theme label (optional):"
 msgstr ""
 
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:29
-msgid "Light theme label:"
+msgid "Light theme label (optional):"
 msgstr ""
 
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:30
-msgid "Dark theme label:"
+msgid "Dark theme label (optional):"
 msgstr ""
