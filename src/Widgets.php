@@ -23,7 +23,7 @@ class Widgets
     {
         // Widget for all series
         $w
-            ->create('themeswitcherhelper', __('Theme switcher helper'), FrontendWidgets::widgetThemeSwitcher(...), null, __('Theme Switcher Helper widget, css and js'))
+            ->create('themeswitcherhelper', __('Theme switcher helper'), FrontendWidgets::widgetThemeSwitcher(...), null, __('Theme Switcher Helper widget, css and js'), My::id())
             ->addTitle(__('Theme switcher'))
             ->setting('auto', __('Auto theme label (optional):'), '')
             ->setting('light', __('Light theme label (optional):'), '')
