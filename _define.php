@@ -15,9 +15,9 @@ $this->registerModule(
     'Theme Switcher Helper',
     'Theme Switcher Helper widget, css and js',
     'Franck Paul',
-    '1.2',
+    '2.0',
     [
-        'date'        => '2025-06-01T08:09:55+0200',
+        'date'        => '2025-09-07T15:44:17+0200',
         'requires'    => [['core', '2.36']],
         'type'        => 'plugin',
         'permissions' => 'My',
