@@ -12,8 +12,9 @@ dotclear.ready(() => {
   const light = document.getElementById('lightSwitch');
   const dark = document.getElementById('darkSwitch');
   // Scheme mode switcher
-  const switchMode = (setmode = 'auto') => {
+  const switchMode = (mode) => {
     const html = document.querySelector('html');
+    const setmode = mode ?? 'auto';
     html.style.setProperty('color-scheme', setmode === 'auto' ? 'light dark' : setmode);
     if (setmode === 'auto') {
       localStorage.removeItem(localStorageName);
