@@ -2,7 +2,7 @@
 
 Dotclear 2 plugin
 
-This plugin provide a widget to select the theme (automatic, light, dark), saving the user choice in local storage and also setting a specific class to the HTML element to `light` or `dark` if necessary. Note that this classes are removed when automatic mode is selected.
+This plugin provide a widget to select the color scheme (automatic, light, dark), saving the user choice in local storage and also setting a specific class to the HTML element to `light` or `dark` if necessary. Note that this classes are removed when automatic mode is selected.
 
 The theme should include this in its stylesheet:
 

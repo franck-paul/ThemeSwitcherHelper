@@ -25,8 +25,8 @@ class Backend
     public static function init(): bool
     {
         // dead but useful code, in order to have translations
-        __('Theme Switcher Helper');
-        __('Theme Switcher Helper widget, css and js');
+        __('Color scheme switcher');
+        __('Color scheme switcher widget, css and js');
 
         return self::status(My::checkContext(My::BACKEND));
     }

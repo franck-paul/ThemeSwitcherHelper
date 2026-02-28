@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dotclear 2 ThemeSwitcherHelper module\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 13:15+0200\n"
+"POT-Creation-Date: 2026-02-28 11:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,43 +16,37 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../git-plugins/ThemeSwitcherHelper/src/Backend.php:26
-msgid "Theme Switcher Helper"
-msgstr ""
-
-#: ../git-plugins/ThemeSwitcherHelper/src/Backend.php:27
+#: ../git-plugins/ThemeSwitcherHelper/src/Backend.php:28
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:26
-msgid "Theme Switcher Helper widget, css and js"
+#: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:27
+msgid "Color scheme switcher"
 msgstr ""
 
-#: ../git-plugins/ThemeSwitcherHelper/src/FrontendWidgets.php:49
+#: ../git-plugins/ThemeSwitcherHelper/src/Backend.php:29
+#: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:26
+msgid "Color scheme switcher widget, css and js"
+msgstr ""
+
+#: ../git-plugins/ThemeSwitcherHelper/src/FrontendWidgets.php:48
 msgid "Auto"
 msgstr ""
 
-#: ../git-plugins/ThemeSwitcherHelper/src/FrontendWidgets.php:51
+#: ../git-plugins/ThemeSwitcherHelper/src/FrontendWidgets.php:50
 msgid "Light"
 msgstr ""
 
-#: ../git-plugins/ThemeSwitcherHelper/src/FrontendWidgets.php:53
+#: ../git-plugins/ThemeSwitcherHelper/src/FrontendWidgets.php:52
 msgid "Dark"
 msgstr ""
 
-#: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:26
-msgid "Theme switcher helper"
-msgstr ""
-
-#: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:27
-msgid "Theme switcher"
-msgstr ""
-
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:28
-msgid "Auto theme label (optional):"
+msgid "Auto color scheme label (optional):"
 msgstr ""
 
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:29
-msgid "Light theme label (optional):"
+msgid "Light color scheme label (optional):"
 msgstr ""
 
 #: ../git-plugins/ThemeSwitcherHelper/src/Widgets.php:30
-msgid "Dark theme label (optional):"
+msgid "Dark color scheme label (optional):"
 msgstr ""

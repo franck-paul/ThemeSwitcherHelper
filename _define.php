@@ -12,8 +12,8 @@
  * @copyright GPL-2.0 https://www.gnu.org/licenses/gpl-2.0.html
  */
 $this->registerModule(
-    'Theme Switcher Helper',
-    'Theme Switcher Helper widget, css and js',
+    'Color scheme switcher',
+    'Color scheme switcher widget, css and js',
     'Franck Paul',
     '2.1.1',
     [

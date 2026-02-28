@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dotclear 2 ThemeSwitcherHelper module\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 13:15+0200\n"
+"POT-Creation-Date: 2026-02-28 11:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Theme Switcher Helper"
+msgid "Color scheme switcher"
 msgstr ""
 
-msgid "Theme Switcher Helper widget, css and js"
+msgid "Color scheme switcher widget, css and js"
 msgstr ""
 
 msgid "Auto"
@@ -31,17 +31,11 @@ msgstr ""
 msgid "Dark"
 msgstr ""
 
-msgid "Theme switcher helper"
+msgid "Auto color scheme label (optional):"
 msgstr ""
 
-msgid "Theme switcher"
+msgid "Light color scheme label (optional):"
 msgstr ""
 
-msgid "Auto theme label (optional):"
-msgstr ""
-
-msgid "Light theme label (optional):"
-msgstr ""
-
-msgid "Dark theme label (optional):"
+msgid "Dark color scheme label (optional):"
 msgstr ""

@@ -10,13 +10,11 @@
 
 use Dotclear\Helper\L10n;
 
-L10n::$locales['Theme Switcher Helper'] = '';
-L10n::$locales['Theme Switcher Helper widget, css and js'] = '';
+L10n::$locales['Color scheme switcher'] = '';
+L10n::$locales['Color scheme switcher widget, css and js'] = '';
 L10n::$locales['Auto'] = '';
 L10n::$locales['Light'] = '';
 L10n::$locales['Dark'] = '';
-L10n::$locales['Theme switcher helper'] = '';
-L10n::$locales['Theme switcher'] = '';
-L10n::$locales['Auto theme label (optional):'] = '';
-L10n::$locales['Light theme label (optional):'] = '';
-L10n::$locales['Dark theme label (optional):'] = '';
+L10n::$locales['Auto color scheme label (optional):'] = '';
+L10n::$locales['Light color scheme label (optional):'] = '';
+L10n::$locales['Dark color scheme label (optional):'] = '';

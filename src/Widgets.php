@@ -23,11 +23,11 @@ class Widgets
     {
         // Widget for all series
         $w
-            ->create('themeswitcherhelper', __('Theme switcher helper'), FrontendWidgets::widgetThemeSwitcher(...), null, __('Theme Switcher Helper widget, css and js'), My::id())
-            ->addTitle(__('Theme switcher'))
-            ->setting('auto', __('Auto theme label (optional):'), '')
-            ->setting('light', __('Light theme label (optional):'), '')
-            ->setting('dark', __('Dark theme label (optional):'), '')
+            ->create('themeswitcherhelper', __('Color scheme switcher'), FrontendWidgets::widgetThemeSwitcher(...), null, __('Color scheme switcher widget, css and js'), My::id())
+            ->addTitle(__('Color scheme switcher'))
+            ->setting('auto', __('Auto color scheme label (optional):'), '')
+            ->setting('light', __('Light color scheme label (optional):'), '')
+            ->setting('dark', __('Dark color scheme label (optional):'), '')
             ->addContentOnly()
             ->addClass()
             ->addOffline();
