@@ -10,13 +10,11 @@
 
 use Dotclear\Helper\L10n;
 
-L10n::$locales['Theme Switcher Helper'] = 'Aide au changement de thème';
-L10n::$locales['Theme Switcher Helper widget, css and js'] = 'Widget d\'aide au changement de thème, inclus JS et CSS';
+L10n::$locales['Color scheme switcher'] = 'Sélecteur de mode d\'apparence';
+L10n::$locales['Color scheme switcher widget, css and js'] = 'Widget de changement de mode d\'apparence, css et js';
 L10n::$locales['Auto'] = 'Auto';
 L10n::$locales['Light'] = 'Clair';
 L10n::$locales['Dark'] = 'Sombre';
-L10n::$locales['Theme switcher helper'] = 'Aide au changement de thème';
-L10n::$locales['Theme switcher'] = 'Sélecteur de thème';
-L10n::$locales['Auto theme label (optional):'] = 'Libellé du thème automatique (optionnel) :';
-L10n::$locales['Light theme label (optional):'] = 'Libellé du thème clair (optionnel) :';
-L10n::$locales['Dark theme label (optional):'] = 'Libellé du thème sombre (optionnel) :';
+L10n::$locales['Auto color scheme label (optional):'] = 'Libellé du mode d\'apparence automatique (facultatif) :';
+L10n::$locales['Light color scheme label (optional):'] = 'Libellé du mode d\'apparence clair (facultatif) :';
+L10n::$locales['Dark color scheme label (optional):'] = 'Libellé du mode d\'apparence foncé (facultatif) :';
