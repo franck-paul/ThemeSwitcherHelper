@@ -39,7 +39,7 @@ msgid "Auto color scheme label (optional):"
 msgstr "Libellé du mode d'apparence automatique (facultatif) :"
 
 msgid "Light color scheme label (optional):"
-msgstr "Libellé du mode d'apparence claire (facultatif) :"
+msgstr "Libellé du mode d'apparence clair (facultatif) :"
 
 msgid "Dark color scheme label (optional):"
 msgstr "Libellé du mode d'apparence foncé (facultatif) :"
