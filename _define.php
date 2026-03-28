@@ -15,9 +15,9 @@ $this->registerModule(
     'Color scheme switcher',
     'Color scheme switcher widget, css and js',
     'Franck Paul',
-    '2.3',
+    '2.4',
     [
-        'date'        => '2026-02-28T11:45:31+0100',
+        'date'        => '2026-03-28T11:23:40+0100',
         'requires'    => [['core', '2.36']],
         'type'        => 'plugin',
         'permissions' => 'My',
