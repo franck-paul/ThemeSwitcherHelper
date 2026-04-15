@@ -8,7 +8,7 @@
  *
  * @author Franck Paul
  *
- * @copyright Franck Paul carnet.franck.paul@gmail.com
+ * @copyright Franck Paul contact@open-time.net
  * @copyright GPL-2.0 https://www.gnu.org/licenses/gpl-2.0.html
  */
 declare(strict_types=1);
@@ -43,13 +43,17 @@ class FrontendWidgets
         // Get widget title
         $res .= ($widget->title ? $widget->renderTitle(Html::escapeHTML($widget->title)) . "\n" : '');
 
+        $auto  = is_string($auto = $widget->get('auto')) ? $auto : __('Auto');
+        $light = is_string($light = $widget->get('light')) ? $light : __('Light');
+        $dark  = is_string($dark = $widget->get('dark')) ? $dark : __('Dark');
+
         $res .= (new Para('themeSwitchHelper'))
             ->items([
-                (new Btn('autoSwitch', $widget->get('auto') ?: __('Auto')))
+                (new Btn('autoSwitch', $auto))
                     ->class('submit'),
-                (new Btn('lightSwitch', $widget->get('light') ?: __('Light')))
+                (new Btn('lightSwitch', $light))
                     ->class('submit'),
-                (new Btn('darkSwitch', $widget->get('dark') ?: __('Dark')))
+                (new Btn('darkSwitch', $dark))
                     ->class('submit'),
             ])
         ->render();
