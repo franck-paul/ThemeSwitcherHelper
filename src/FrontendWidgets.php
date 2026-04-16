@@ -47,6 +47,10 @@ class FrontendWidgets
         $light = is_string($light = $widget->get('light')) ? $light : __('Light');
         $dark  = is_string($dark = $widget->get('dark')) ? $dark : __('Dark');
 
+        $auto  = $auto   !== '' ? $auto : __('Auto');
+        $light = $light !== '' ? $light : __('Light');
+        $dark  = $dark   !== '' ? $dark : __('Dark');
+
         $res .= (new Para('themeSwitchHelper'))
             ->items([
                 (new Btn('autoSwitch', $auto))
