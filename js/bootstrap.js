@@ -28,16 +28,17 @@ dotclear.ready(() => {
     }
     html.classList.add(setmode);
     html.classList.remove(setmode === 'light' ? 'dark' : 'light');
-    if (save) {
-      localStorage.setItem(localStorageName, setmode);
-      auto?.classList.remove('active');
-      if (setmode === 'light') {
-        light?.classList.add('active');
-        dark?.classList.remove('active');
-      } else {
-        light?.classList.remove('active');
-        dark?.classList.add('active');
-      }
+    if (!save) {
+      return;
+    }
+    localStorage.setItem(localStorageName, setmode);
+    auto?.classList.remove('active');
+    if (setmode === 'light') {
+      light?.classList.add('active');
+      dark?.classList.remove('active');
+    } else {
+      light?.classList.remove('active');
+      dark?.classList.add('active');
     }
   };
   // Restore previours choice if any
