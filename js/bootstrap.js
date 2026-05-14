@@ -57,10 +57,10 @@ dotclear.ready(() => {
     switchMode('dark');
   });
   // Watch system change
-  window?.matchMedia('prefers-color-scheme: dark').addEventListener('change', ({ matches }) => {
+  globalThis?.matchMedia('prefers-color-scheme: dark').addEventListener('change', ({ matches }) => {
     if (matches && !localStorage.getItem(localStorageName)) switchMode('dark', false);
   });
-  window?.matchMedia('prefers-color-scheme: light').addEventListener('change', ({ matches }) => {
+  globalThis?.matchMedia('prefers-color-scheme: light').addEventListener('change', ({ matches }) => {
     if (matches && !localStorage.getItem(localStorageName)) switchMode('light', false);
   });
 });
