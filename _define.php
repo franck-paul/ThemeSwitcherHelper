@@ -11,21 +11,25 @@
  * @copyright Franck Paul contact@open-time.net
  * @copyright GPL-2.0 https://www.gnu.org/licenses/gpl-2.0.html
  */
-$this->registerModule(
-    'Color scheme switcher',
-    'Color scheme switcher widget, css and js',
-    'Franck Paul',
-    '2.8',
-    [
-        'date'        => '2026-08-03T10:13:56+0200',
-        'requires'    => [['core', '2.36']],
-        'type'        => 'plugin',
-        'permissions' => 'My',
-        'settings'    => [],
+declare(strict_types=1);
 
-        'details'    => 'https://open-time.net/?q=ThemeSwitcherHelper',
-        'support'    => 'https://github.com/franck-paul/ThemeSwitcherHelper',
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/ThemeSwitcherHelper/main/dcstore.xml',
-        'license'    => 'gpl2',
-    ]
-);
+if (isset($this) && is_object($this) && method_exists($this, 'registerModule') && isset($this->id) && is_string($this->id)) {
+    $this->registerModule(
+        'Color scheme switcher',
+        'Color scheme switcher widget, css and js',
+        'Franck Paul',
+        '2.8',
+        [
+            'date'        => '2026-08-03T10:13:56+0200',
+            'requires'    => [['core', '2.36']],
+            'type'        => 'plugin',
+            'permissions' => 'My',
+            'settings'    => [],
+
+            'details'    => 'https://open-time.net/?q=ThemeSwitcherHelper',
+            'support'    => 'https://github.com/franck-paul/ThemeSwitcherHelper',
+            'repository' => 'https://raw.githubusercontent.com/franck-paul/ThemeSwitcherHelper/main/dcstore.xml',
+            'license'    => 'gpl2',
+        ]
+    );
+}
