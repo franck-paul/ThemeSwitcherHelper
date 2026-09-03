@@ -19,10 +19,10 @@ use Dotclear\Plugin\widgets\WidgetsStack;
 
 class Widgets
 {
-    public static function initWidgets(WidgetsStack $w): string
+    public static function initWidgets(WidgetsStack $widgetsStack): string
     {
         // Widget for all series
-        $w
+        $widgetsStack
             ->create('themeswitcherhelper', __('Color scheme switcher'), FrontendWidgets::widgetThemeSwitcher(...), null, __('Color scheme switcher widget, css and js'), My::id())
             ->addTitle(__('Color scheme switcher'))
             ->setting('auto', __('Auto color scheme label (optional):'), '')

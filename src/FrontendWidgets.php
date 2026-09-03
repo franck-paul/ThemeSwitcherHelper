@@ -25,11 +25,11 @@ class FrontendWidgets
     /**
      * Render widget
      *
-     * @param      WidgetsElement  $widget      The widget
+     * @param      WidgetsElement  $widgetsElement      The widget
      */
-    public static function widgetThemeSwitcher(WidgetsElement $widget): string
+    public static function widgetThemeSwitcher(WidgetsElement $widgetsElement): string
     {
-        if ($widget->offline) {
+        if ($widgetsElement->offline) {
             // Widget offline
             return '';
         }
@@ -41,15 +41,15 @@ class FrontendWidgets
         $res .= My::jsLoad('bootstrap.js');
 
         // Get widget title
-        $res .= ($widget->title ? $widget->renderTitle(Html::escapeHTML($widget->title)) . "\n" : '');
+        $res .= ($widgetsElement->title ? $widgetsElement->renderTitle(Html::escapeHTML($widgetsElement->title)) . "\n" : '');
 
-        $auto  = is_string($auto = $widget->get('auto')) ? $auto : __('Auto');
-        $light = is_string($light = $widget->get('light')) ? $light : __('Light');
-        $dark  = is_string($dark = $widget->get('dark')) ? $dark : __('Dark');
+        $auto  = is_string($auto = $widgetsElement->get('auto')) ? $auto : __('Auto');
+        $light = is_string($light = $widgetsElement->get('light')) ? $light : __('Light');
+        $dark  = is_string($dark = $widgetsElement->get('dark')) ? $dark : __('Dark');
 
-        $auto  = $auto   !== '' ? $auto : __('Auto');
+        $auto  = $auto  !== '' ? $auto : __('Auto');
         $light = $light !== '' ? $light : __('Light');
-        $dark  = $dark   !== '' ? $dark : __('Dark');
+        $dark  = $dark  !== '' ? $dark : __('Dark');
 
         $res .= (new Para('themeSwitchHelper'))
             ->items([
@@ -63,6 +63,6 @@ class FrontendWidgets
         ->render();
 
         // Return final markup
-        return $widget->renderDiv((bool) $widget->content_only, implode(' ', ['themeswitcherhelper', $widget->class]), '', $res);
+        return $widgetsElement->renderDiv((bool) $widgetsElement->content_only, implode(' ', ['themeswitcherhelper', $widgetsElement->class]), '', $res);
     }
 }
