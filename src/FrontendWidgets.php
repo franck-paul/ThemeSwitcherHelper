@@ -29,7 +29,7 @@ class FrontendWidgets
      */
     public static function widgetThemeSwitcher(WidgetsElement $widgetsElement): string
     {
-        if ($widgetsElement->offline) {
+        if ($widgetsElement->isOffline()) {
             // Widget offline
             return '';
         }
@@ -41,7 +41,7 @@ class FrontendWidgets
         $res .= My::jsLoad('bootstrap.js');
 
         // Get widget title
-        $res .= ($widgetsElement->title ? $widgetsElement->renderTitle(Html::escapeHTML($widgetsElement->title)) . "\n" : '');
+        $res .= ($widgetsElement->getTitle() !== '' ? $widgetsElement->renderTitle(Html::escapeHTML($widgetsElement->getTitle())) . "\n" : '');
 
         $auto  = is_string($auto = $widgetsElement->get('auto')) ? $auto : __('Auto');
         $light = is_string($light = $widgetsElement->get('light')) ? $light : __('Light');
@@ -63,6 +63,6 @@ class FrontendWidgets
         ->render();
 
         // Return final markup
-        return $widgetsElement->renderDiv((bool) $widgetsElement->content_only, implode(' ', ['themeswitcherhelper', $widgetsElement->class]), '', $res);
+        return $widgetsElement->renderDiv($widgetsElement->getContentOnly(), implode(' ', ['themeswitcherhelper', $widgetsElement->getClass()]), '', $res);
     }
 }
