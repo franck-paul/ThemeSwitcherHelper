@@ -1,12 +1,12 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="ThemeSwitcherHelper">
     <name>Theme Switcher Helper</name>
-    <version>2.8</version>
+    <version>3.0</version>
     <author>Franck Paul</author>
     <desc>Theme switcher helpers (widgets/style/js)</desc>
-    <date>2026-08-03T10:13:56+0200</date>
-    <file>https://github.com/franck-paul/ThemeSwitcherHelper/releases/download/2.8/plugin-ThemeSwitcherHelper-2.8.zip</file>
-    <da:dcmin>2.36</da:dcmin>
+    <date>2026-11-08T10:25:42+0100</date>
+    <file>https://github.com/franck-paul/ThemeSwitcherHelper/releases/download/3.0/plugin-ThemeSwitcherHelper-3.0.zip</file>
+    <da:dcmin>2.40</da:dcmin>
     <da:details>https://dotclear.org/plugin/detail/ThemeSwitcherHelper</da:details>
     <da:support>https://github.com/franck-paul/ThemeSwitcherHelper</da:support>
   </module>
