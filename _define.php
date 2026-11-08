@@ -18,9 +18,9 @@ if (isset($this) && is_object($this) && method_exists($this, 'registerModule') &
         'Color scheme switcher',
         'Color scheme switcher widget, css and js',
         'Franck Paul',
-        '2.8',
+        '3.0',
         [
-            'date'        => '2026-08-03T10:13:56+0200',
+            'date'        => '2026-11-08T10:25:42+0100',
             'requires'    => [['core', '2.40']],
             'type'        => 'plugin',
             'permissions' => 'My',
